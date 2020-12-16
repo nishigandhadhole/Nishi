@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Personal Portfolio</title>
+    <meta="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="D:\study\html\Freecodecamp\personal_portfolio\portfolio.css">
+  </head>
+  <script>
+   function ShowAndHide() {
+    var x = document.getElementById('SectionName');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+  </script>
+  
+<body>
+  <div class="body">
+    <nav id="navbar">
+      <a class="nav-link" href="#contact"> Contact</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link " href="#about">About</a>
+
+    </nav>
+    <!--<section class="container">-->
+    <section id="welcome-section" class="container-fluid">
+      <div class="firt container">
+        <h1><i>Hi all<br> I am Nishigandha</i><br></h1>
+        <p><i>&nbsp; &nbsp; web developer.</i></p>
+      </div>
+      <button onclick="ShowAndHide()" id="about">About Me</button>
+      <div id="SectionName">I am a front end developer focused on crafting clean & user friendly experinecs. <br>I like to develop the
+        static and responsive webistes using HTML,CSS and Bootstrap. <br>And learning Javascript for the more indepth knoweldge.
+      </div>
+      <!--<button ><a href="">Contact Me</a></button>-->
+    </section>
+    <section id="projects" class="container-fluid">
+      <h1 class="project-tile">These are some of my projects</h1><br>
+      <div class="div">
+        <div class="container"><a  href="https://codepen.io/Nishigandha_dhole/full/BaLWrvK" target="_new"><img src="img/quote.png" class="img-thumbnail" alt="Random_quote"><span class="txt">Random Quote Generator</span></a></div>
+         <div class="container"><a href="https://codepen.io/your-work/" target="_new"><img src="img/fishpond.png" alt="FishPond" class="img-thumbnail"><span class="txt">FishPond</span></a></div>
+
+   </section>
+
+    <div class="div">
+      <div class="container"><a  href="https://codepen.io/Nishigandha_dhole/full/eYdgMMM" target="_new"><img src="img/doc.png" class="img-thumbnail" alt="documenation"><span class="txt">Technical Documenation</span></a></div>
+
+      <div class="container"><a href="https://codepen.io/Nishigandha_dhole/full/NWRdvby" target="_new"><img src="img/product.png" class="img-thumbnail" alt="product_landing"><span class="txt">Product Landing Page</span></a></div>
+    </div>
+    <div class="div">
+      <!--
+<div class="container"><a href="file:///D:/study/html/css/index%20(1).html" target="_new"><img src="img/cal.png" alt="product"class="img-thumbnail" height="200" ></a></div>
+_-->
+        <div class="container"><a  href="https://codepen.io/Nishigandha_dhole/full/YzGpwNV " target="_new"><img src="img/survey.png" class="img-thumbnail" alt="survey_form"><span class="txt">Survey Form</span></a></div>
+
+    </div>
+
+    <div class="center">
+      <button class="btn " id="img"><a id="profile-link" href="https://codepen.io/your-work/" target="_new">View All</a></button></div>
+
+  </div>
+ 
+  <!--</section>--> 
+  </body></html>
